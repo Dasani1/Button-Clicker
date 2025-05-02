@@ -6,11 +6,13 @@ const showy = document.getElementById("output");
 function count() {
     const x = document.getElementById("clicky");
     
-    if (tally < 10){
+    if (tally < 9){
         tally++;
         show();
     }
     else{
+        tally++;
+        show();
         score.disabled = true;
         score.classList.add("disabled-no-animation");
 
