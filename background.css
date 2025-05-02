@@ -1,0 +1,60 @@
+body{
+    background-color:beige;
+    margin: 0;
+    text-align: center;
+    
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin: 10% 0;
+}
+
+.clicker {
+    order: 2;
+}
+
+.side{
+    order: 1;
+}
+
+.side button{
+    background-color: lightblue;
+}
+
+.side button:hover{
+    background-color: rgb(162, 222, 245);
+}
+
+.side button:active{
+    background-color: rgb(162,222,245);
+}
+
+button{
+    background-color:darkolivegreen;
+    padding: 100px;
+    border: 5px solid black;
+    cursor:pointer;
+}   
+
+button:hover{
+    background-color: green;
+}
+
+button:active{
+    background-color:green;
+    padding:100px;
+    transform: translateY(4px);
+}
+
+button.disabled-no-animation{
+    cursor:not-allowed;
+}
+
+button.disabled-no-animation:hover,button.disabled-no-animation:active {
+    transform:none;
+    background-color: darkolivegreen;
+}
