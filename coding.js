@@ -15,7 +15,6 @@ function count() {
         show();
         score.disabled = true;
         score.classList.add("disabled-no-animation");
-
     }
 }
 

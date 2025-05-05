@@ -1,0 +1,35 @@
+body{
+    background-color: bisque;
+    margin: 0;
+}
+
+header{
+    text-align: center;
+    padding: 50px;
+}
+
+h1{
+    margin: 0;
+}
+
+.calculator{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+    flex-wrap:wrap;
+
+}
+
+.number button{
+    background-color: grey;
+    cursor:pointer;
+    height:50px;
+    width:50px;
+}
+
+.display{
+    background-color: white;
+
+}
+
