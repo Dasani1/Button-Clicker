@@ -14,15 +14,16 @@
 
             <div class="calculator">
                 <div class="number">
-                    <button type="button" id="one" onclick="numbers()"> 1 </button>
-                    <button type="button" id="two" onclick="numbers()"> 2 </button>
-                    <button type="button" id="three" onclick="numbers()"> 3 </button>
-                    <button type="button" id="four" onclick="numbers()"> 4 </button>
-                    <button type="button" id="five" onclick="numbers()"> 5 </button>
-                    <button type="button" id="six" onclick="numbers()"> 6 </button>
-                    <button type="button" id="seven" onclick="numbers()"> 7 </button>
-                    <button type="button" id="eight" onclick="numbers()"> 8 </button>
-                    <button type="button" id="nine" onclick="numbers()"> 9 </button>
+                    <button type="button" id="one" onclick="numbers(this)"> 1 </button>
+                    <button type="button" id="two" onclick="numbers(this)"> 2 </button>
+                    <button type="button" id="three" onclick="numbers(this)"> 3 </button>
+                    <button type="button" id="four" onclick="numbers(this)"> 4 </button>
+                    <button type="button" id="five" onclick="numbers(this)"> 5 </button>
+                    <button type="button" id="six" onclick="numbers(this)"> 6 </button>
+                    <button type="button" id="seven" onclick="numbers(this)"> 7 </button>
+                    <button type="button" id="eight" onclick="numbers(this)"> 8 </button>
+                    <button type="button" id="nine" onclick="numbers(this)"> 9 </button>
+                    <button type="button" id="zero" onclick="numbers(this)"> 0 </button>
                     <br>
                     <button type="button" id="plus" onclick="todo()"> + </button>
                     <button type="button" id="minus" onclick="todo()"> - </button>
@@ -31,11 +32,12 @@
                 </div>
 
                 <div class="display">
-                    <p id="output"></p>
+                    <p id="output">Your result will be outputted here!</p>
                 </div>
             </div>
             
         </main>
+        <script src="graphing.js"></script>
     </body>
 
 
